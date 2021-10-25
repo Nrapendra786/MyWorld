@@ -1,0 +1,5 @@
+package problems.atm;
+
+public enum ATMEnum {
+    SUCCESSFULL_TRANSACTION, INCORRECT_WITHDRAWL_AMOUNT, INSUFFICIENT_FUNDS
+}

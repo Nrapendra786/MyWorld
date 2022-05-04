@@ -4,8 +4,8 @@
 # Einen einzelnen Microservice Testen
  mvn clean test 
 # Einen einzelnen SpringBoot Microservice Starten
-                      cd Path_to_your_Application
-mvn spring-boot:run 
+  cd Path_to_your_Application
+  mvn spring-boot:run 
 # Mehere SpringBoot Microserivice Starten
 mvn spring-boot:run
 für jeden microservice portnumber muss konfiguert werden.

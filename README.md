@@ -28,7 +28,7 @@ mvn sonar:sonar -Dsonar.host.url=http://localhost:9000 <br />
 # Docker Bauen und Starten
 docker build -t image_name .	 <br />
 docker run -d --name container_name image_name
-# Beschreibung wie mehrere Services mit UI Service zusammenarbeiten :
+# Beschreibung wie mehrere Services mit UI Service zusammenarbeiten
 Priorisierung die Services  <br />
 zb starten die unabhangige Backend Services und dann abhangige Backend Services und dann FE Services.  
 # Curl Rest API Testen
